@@ -10,7 +10,7 @@
             {"cmdName": "contact", "description": "get in touch with me"},
             {"cmdName": "clear", "description": "clear the terminal"},
             {"cmdName": "commands*", "description": "list of commands you can use"},
-            {"cmdName": "exit", "description": "close this tab"}
+            {"cmdName": "exit", "description": "this tab"}
         ],
         "links":[]
     },
