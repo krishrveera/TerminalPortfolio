@@ -1,0 +1,93 @@
+[
+    {
+        "name": "commands",
+        "description": "Here is a list of commands you can use",
+        "commands": [
+            {"cmdName": "about", "description": "my journey"},
+            {"cmdName": "projects", "description": "my work"},
+            {"cmdName": "skills", "description": "my expertise"},
+            {"cmdName": "resume", "description": "my latest one"},
+            {"cmdName": "contact", "description": "get in touch with me"},
+            {"cmdName": "clear", "description": "clear the terminal"},
+            {"cmdName": "commands*", "description": "list of commands you can use"},
+            {"cmdName": "exit", "description": "close this tab"}
+        ],
+        "links":[]
+    },
+    {
+        "name": "about",
+        "description": "Hello World! I am a masters student in computer science at columbia university, and i am passionate about machine learning and ai and upcoming techologies...",
+        "commands": [],
+        "links":[]
+    },
+    {
+        "name": "projects",
+        "description": "and still counting...",
+        "commands": [],
+        "links":[
+            {
+                "name": "CineMatch",
+                "url": "https://bit.ly/cm-mrs"
+            },
+            {
+                "name": "SkillMiner",
+                "url": "https://bit.ly/smmfp"
+            },
+            {
+                "name": "TavernKeeper",
+                "url": "https://bit.ly/tk-dndm"
+            },
+            {
+                "name": "Maskateer",
+                "url": "https://bit.ly/maskateer"
+            }
+        ]
+    },
+    {
+        "name": "skills",
+        "description": "adding new things every month...",
+        "commands": [
+            {"cmdName": "python", "description": "****"},
+            {"cmdName": "sk-learn", "description": "*****"},
+            {"cmdName": "sql", "description": "****"},
+            {"cmdName": "data cleaning", "description": "***"},
+            {"cmdName": "git", "description": "****"},
+            {"cmdName": "latex", "description": "***"}
+        ],
+        "links":[]
+    },
+    {
+        "name": "resume",
+        "description": "",
+        "commands": [],
+        "links":[
+            {
+                "name": "Resume",
+                "url": "https://drive.google.com/file/d/147tBy90tkDEWcRXzYUtf-Bt7ksbcRhBH/view?usp=sharing"
+            }
+        ]
+    },
+    {
+        "name": "contact",
+        "description": "",
+        "commands": [],
+        "links":[
+            {
+                "name": "LinkedIn",
+                "url": "https://linkedin.com/in/krish-veera/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/krishrveera"
+            },
+            {
+                "name": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=jz5nILQAAAAJ&hl=en&oi=ao"
+            },
+            {
+                "name": "Mail",
+                "url": "mailto:krish.v@columbia.edu"
+            }
+        ]
+    }
+]
