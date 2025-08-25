@@ -1,6 +1,6 @@
 [
     {
-        "name": "commands",
+        "name": "help",
         "description": "Here is a list of commands you can use",
         "commands": [
             {"cmdName": "about", "description": "my journey"},
@@ -9,7 +9,7 @@
             {"cmdName": "resume", "description": "my latest one"},
             {"cmdName": "contact", "description": "get in touch with me"},
             {"cmdName": "clear", "description": "clear the terminal"},
-            {"cmdName": "commands*", "description": "list of commands you can use"},
+            {"cmdName": "help*", "description": "list of commands you can use"},
             {"cmdName": "exit", "description": "this tab"}
         ],
         "links":[]

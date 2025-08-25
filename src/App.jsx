@@ -13,11 +13,11 @@ function App() {
     } else if (cmd.toLowerCase() === "exit"){
       window.close();
     } else if (cmd.toLowerCase() === "resume"){
-      window.open("https://drive.google.com/file/d/147tBy90tkDEWcRXzYUtf-Bt7ksbcRhBH/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/19Vn3m2JWOaJzDAVb2EIPQllDiFYGFT7H/view?usp=sharing");
     }
     else{
       const command = commands.find(c => c.name === cmd.toLowerCase());
-      setOutput(command || { name: `command not found: ${cmd}`, description:"type `commands` to see all available commands."})
+      setOutput(command || { name: `command not found: ${cmd}`, description:"type `help` to see all available commands."})
     }
     setCmd("");
   }
@@ -38,7 +38,7 @@ function App() {
           value={cmd}
           onChange={(e) => setCmd(e.target.value)}
           autoFocus="true"
-          placeholder="commands"
+          placeholder="help"
         />
         <button
           type="submit"
